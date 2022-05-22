@@ -1,1 +1,3 @@
-export const GET_POST = "GET_TASK";
+export const GET_POST_BEGINS = "GET_POST_BEGINS";
+export const GET_POST_SUCCESS = "GET_POST_SUCCESS";
+export const GET_POST_FAILURE = "GET_POST_FAILURE";
