@@ -1,13 +1,49 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server 1", "author": "typicode 1" },
-      { "id": 2, "title": "json-server 2", "author": "typicode 2" },
-      { "id": 3, "title": "json-server 3", "author": "typicode 3" },
-      { "id": 4, "title": "json-server 4", "author": "typicode 4" },
-      { "id": 5, "title": "json-server 5", "author": "typicode 5" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": { "name": "typicode" }
-  }
+  "posts": [
+    {
+      "title": "json-server 1",
+      "isCompleted": true,
+      "id": 1
+    },
+    {
+      "title": "json-server 2",
+      "isCompleted": true,
+      "id": 2
+    },
+    {
+      "title": "json-server 3",
+      "isCompleted": true,
+      "id": 3
+    },
+    {
+      "title": "json-server 4",
+      "isCompleted": true,
+      "id": 4
+    },
+    {
+      "title": "json-server 5",
+      "isCompleted": true,
+      "id": 5
+    },
+    {
+      "title": "json-server 6",
+      "isCompleted": true,
+      "id": 6
+    },
+    {
+      "title": "json-server 7",
+      "isCompleted": true,
+      "id": 7
+    },
+    {
+      "title": "json-server 8",
+      "isCompleted": true,
+      "id": 8
+    },
+    {
+      "title": "json-server 9",
+      "isCompleted": true,
+      "id": 9
+    }
+  ]
+}
