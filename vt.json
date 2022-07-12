@@ -1,14 +1,9 @@
 {
   "posts": [
     {
-      "title": "json-server 1",
-      "isCompleted": true,
+      "title": "Json Server 1",
+      "isCompleted": false,
       "id": 1
-    },
-    {
-      "title": "json-server 2",
-      "isCompleted": true,
-      "id": 2
     },
     {
       "title": "json-server 3",
@@ -17,7 +12,7 @@
     },
     {
       "title": "json-server 4",
-      "isCompleted": true,
+      "isCompleted": false,
       "id": 4
     },
     {
@@ -29,21 +24,6 @@
       "title": "json-server 6",
       "isCompleted": true,
       "id": 6
-    },
-    {
-      "title": "json-server 7",
-      "isCompleted": true,
-      "id": 7
-    },
-    {
-      "title": "json-server 8",
-      "isCompleted": true,
-      "id": 8
-    },
-    {
-      "title": "json-server 9",
-      "isCompleted": true,
-      "id": 9
     }
   ]
 }

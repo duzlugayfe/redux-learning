@@ -4,6 +4,7 @@ const initialPostState = {
   postList: [],
   getPostLoading: false,
   addPostLoading: false,
+  deletePostLoading: false,
 };
 
 const postReducer = (state = initialPostState, { type, payload }) => {
@@ -41,6 +42,23 @@ const postReducer = (state = initialPostState, { type, payload }) => {
       return {
         ...state,
         addPostLoading: false,
+      };
+
+    case postActionType.DELETE_POST_BEGINS:
+      return {
+        ...state,
+        deletePostLoading: true,
+      };
+    case postActionType.DELETE_POST_SUCCESS:
+      return {
+        ...state,
+        postList: [...state.postList.filter((post) => post.id !== payload)],
+        deletePostLoading: false,
+      };
+    case postActionType.DELETE_POST_FAILURE:
+      return {
+        ...state,
+        deletePostLoading: false,
       };
 
     ///////////////////

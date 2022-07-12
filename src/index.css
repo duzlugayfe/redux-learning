@@ -17,3 +17,10 @@ code {
   left:50%;
 
 }
+.post-completed{
+  color:green;
+  text-decoration:line-through;
+}
+.post-pending{
+  color: red;
+}
